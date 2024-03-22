@@ -150,6 +150,17 @@ body {
     display: block;
   }
 
+  .contenido {
+    grid-template-columns: 1fr; /* Cambia a una sola columna */
+  }
+
+  .box img {
+
+    width: 100%; /* Asegúrate de que las imágenes se ajusten a la nueva disposición */
+    height: auto; /* Mantiene la proporción de aspecto */
+
+  }
+
   .video-placeholder {
     position: relative;
     width: 100%;
